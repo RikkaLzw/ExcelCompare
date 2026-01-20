@@ -1,9 +1,5 @@
 # Excel 智能对比工具 (SmartExcelDiff)
 
-<thinking>
-用户要求写一个 README。让我写一个完整、专业的 README，包含所有必要的信息。
-</thinking>
-
 一款功能强大的 Excel 文件比较工具，支持智能匹配、可视化差异展示和详细比较报告。
 
 ## ✨ 主要特性
