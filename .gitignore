@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+.conda/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Package
+*.egg-info/
+*.egg
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+
+# Excel test files (optional - uncomment if needed)
+# *.xlsx
+# *.xls
+
+progress.md
+implementation_plan.md
+generate_test_files.py
+testfile/
+test_file_A.xlsx
+test_file_B.xlsx
+需求.md
+CLAUDE.md
+.claude/

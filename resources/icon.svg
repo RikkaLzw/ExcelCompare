@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- 背景圆 -->
+  <circle cx="64" cy="64" r="60" fill="#4CAF50" opacity="0.15"/>
+  
+  <!-- 左侧文件 (文件A) -->
+  <g transform="translate(18, 25)">
+    <!-- 文件主体 -->
+    <rect x="0" y="0" width="40" height="52" rx="4" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+    <!-- 折角 -->
+    <path d="M28 0 L40 12 L28 12 Z" fill="#81C784"/>
+    <!-- 表格线条 -->
+    <rect x="6" y="16" width="28" height="4" rx="1" fill="white" opacity="0.9"/>
+    <rect x="6" y="24" width="28" height="4" rx="1" fill="white" opacity="0.7"/>
+    <rect x="6" y="32" width="28" height="4" rx="1" fill="white" opacity="0.7"/>
+    <rect x="6" y="40" width="20" height="4" rx="1" fill="white" opacity="0.5"/>
+    <!-- 眼睛 -->
+    <circle cx="14" cy="8" r="2.5" fill="white"/>
+    <circle cx="14" cy="8" r="1" fill="#333"/>
+    <circle cx="26" cy="8" r="2.5" fill="white"/>
+    <circle cx="26" cy="8" r="1" fill="#333"/>
+  </g>
+  
+  <!-- 右侧文件 (文件B) -->
+  <g transform="translate(70, 25)">
+    <!-- 文件主体 -->
+    <rect x="0" y="0" width="40" height="52" rx="4" fill="#2196F3" stroke="#1976D2" stroke-width="2"/>
+    <!-- 折角 -->
+    <path d="M28 0 L40 12 L28 12 Z" fill="#64B5F6"/>
+    <!-- 表格线条 -->
+    <rect x="6" y="16" width="28" height="4" rx="1" fill="white" opacity="0.9"/>
+    <rect x="6" y="24" width="28" height="4" rx="1" fill="#FFEB3B" opacity="0.9"/>
+    <rect x="6" y="32" width="28" height="4" rx="1" fill="white" opacity="0.7"/>
+    <rect x="6" y="40" width="28" height="4" rx="1" fill="#C8E6C9" opacity="0.9"/>
+    <!-- 眼睛 -->
+    <circle cx="14" cy="8" r="2.5" fill="white"/>
+    <circle cx="14" cy="8" r="1" fill="#333"/>
+    <circle cx="26" cy="8" r="2.5" fill="white"/>
+    <circle cx="26" cy="8" r="1" fill="#333"/>
+  </g>
+  
+  <!-- 中间对比箭头/符号 -->
+  <g transform="translate(54, 45)">
+    <!-- 左箭头 -->
+    <path d="M10 8 L4 14 L10 20" stroke="#FF5722" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- 右箭头 -->
+    <path d="M10 8 L16 14 L10 20" stroke="#FF5722" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  
+  <!-- 放大镜 -->
+  <g transform="translate(75, 70)">
+    <circle cx="18" cy="18" r="14" fill="none" stroke="#FF9800" stroke-width="4"/>
+    <line x1="28" y1="28" x2="40" y2="40" stroke="#FF9800" stroke-width="5" stroke-linecap="round"/>
+    <!-- 放大镜内的差异标记 -->
+    <text x="12" y="23" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF9800">≠</text>
+  </g>
+  
+  <!-- 底部标签 -->
+  <rect x="24" y="100" width="80" height="18" rx="9" fill="#FF5722"/>
+  <text x="64" y="113" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">COMPARE</text>
+</svg>
