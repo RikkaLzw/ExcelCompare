@@ -1,4 +1,4 @@
-# Excel 智能对比工具 (SmartExcelDiff)
+# Excel 智能对比工具 (ExcelCompare)
 
 一款功能强大的 Excel 文件比较工具，支持智能匹配、可视化差异展示和详细比较报告。
 
